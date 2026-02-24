@@ -26,7 +26,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Typecheck
-        run: pnpm -s typecheck
+        run: pnpm exec tsc -p tsconfig.json --noEmit --pretty false
 
       - name: Test
-        run: pnpm -s test
+        run: pnpm test

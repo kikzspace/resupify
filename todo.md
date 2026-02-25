@@ -1492,3 +1492,11 @@
 - [x] Create client/src/components/marketing/FAQAccordion.tsx (minimal accordion, no new libs)
 - [x] Create client/src/hooks/useRevealOnScroll.ts (IntersectionObserver staggered fade-up)
 - [x] Write minimal vitest: LandingPageTemplate mounts with stub hero
+
+## V2 Phase 1.1B — Marketing Home Page at /home-marketing
+- [x] Create client/src/pages/marketing/MarketingHome.tsx with all sections
+- [x] Add /home-marketing route to App.tsx (do not replace /)
+- [x] Hero form: resume textarea + JD textarea + teal CTA + progress bar + error state
+- [x] Simulated results: match band (typewriter) + 5 gaps + 3 quick fixes
+- [x] Locked full report block with Create account + Sign in links
+- [x] Write tests: route renders headline + CTA, submit shows progress bar then results block
